@@ -1,0 +1,139 @@
+style.css
+/* Base style */
+*{box-sizing: border-box;}
+
+body
+{line-height: 1.6;
+color: #3a3a3a;
+width: 70%
+margin:0 auto;}
+h1{color: #EAACAA;
+  text-align: center;
+margin-top:center
+size:60px}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*base layout styles*/
+
+/* ---Navigation---*/
+
+.name{font-size: 3.25em;}
+
+.name, .main-nav li{
+  text-align: center;
+  background: #FFF;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.name a{text-align: center;font-size: .95em;
+color: #3acec2;
+}
+
+.main-nav li{display: inline-block;}
+.main-nav { display: inline-block;}
+
+/*---Layout Container----*/
+.container{padding-left: 1em;
+padding-right: 1em;
+background: #d9e4ea;
+
+}
+
+.main-header{padding-top: 1.5em;
+padding-bottom: 1.5em
+background: #3acec2;
+margin-bottom: 30px;}
+
+.main-footer{text-align: center;
+padding: 2em 0;
+background: #d9e4ea;}
+
+/*--social_links--*/
+
+.social_links li{
+  padding-left: 4px;
+  padding-right: 2px;
+  line-height: 16px;
+}
+.social_links li a{
+  display: inline-block;
+  font-size: 0;
+  height: 15px;
+  vertical-align: top;
+  width: 15px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 100% auto;
+}
+.social_links li a:hover{
+  background-position: center bottom;
+}
+
+.social_links li a.insta{background-image: url(../image/icons8-instagram-30.png
+);
+height: 14px;
+margin-top: 1px;
+width: 14px}
+
+.social_links li a.fb{background-image: url(../image/icons8-facebook-24.png
+);
+height: 14px;
+margin-top: 1px;
+width: 14px}
+
+.social_links li a.twitt{background-image: url(../image/icons8-twitter-24.png
+height: 14px;
+margin-top: 1px;
+width: 14px}
+
+.social_links li a.yout{background-image: url(../image/icons8-play-button-30.png
+margin-top: 1px;
+width: 14px}
+
+
+/*---Media Queries---*/
+@media {min-width:769px){
+  .wrap{min-height:calc(100vh-89px);}
+  .container{width:80%;
+    max-width: 1150px;
+    margin:0 auto;
+  }
+}
+
+}
+
+.feat-img{width:300px;
+  float:right;
+
+}
+.col{}
+
+/*---layput containers---*/
+.wrapper {
+  width:70%;
+margin:0 auto;
+}
+.main-header{background-color: AAEAC4
+padding: 1em 0;}
+
+
+
+
+.wrap{min-height:100vh;}
