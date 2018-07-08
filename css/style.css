@@ -18,7 +18,7 @@ background-color:#d9e4ea;
   margin:auto;
 }
 
-/* Hide the images by default */
+/* image slider */
 .mySlides {
     display: none;
 }
@@ -44,7 +44,7 @@ background-color:#d9e4ea;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -140,7 +140,7 @@ font-size:50px;
 }
 
 
-/* Clear floats after the columns */
+
 
 .row {
     display: flex;
@@ -235,7 +235,7 @@ text-decoration: none;
   font-family: Arial;
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add background color to navbar links on hover */
  .a:hover, .dropdown:hover .dropbtn {background-color:#d9e4ea
 
 }
@@ -301,7 +301,7 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
-/* -- contact form --*/
+
 
 
 /* Responsive layout */
