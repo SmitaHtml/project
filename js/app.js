@@ -1,4 +1,4 @@
-
+//login
 $(document).ready(function() {
     $(".button").click(function(e) {
         $("body").append(''); $(".popup").show();
@@ -10,10 +10,27 @@ $(document).ready(function() {
 
 
 
+//login
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//slider
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -44,10 +61,4 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
-/*----contact form
-$(document).ready(function(){
-    $("a").click(function(){
-        alert($("#contact1").attr("href"));
-    });
-});*/
+//slider
