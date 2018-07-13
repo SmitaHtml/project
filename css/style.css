@@ -1,6 +1,7 @@
 
 
 
+
 *{box-sizing: border-box;}
 /*---body-----*/
 body{
@@ -17,7 +18,7 @@ background-color:#d9e4ea;
   position:relative;
   margin:auto;
 }
-label{color: black;}
+
 /* image slider */
 .mySlides {
     display: none;
@@ -109,7 +110,9 @@ position: relative;
   to {opacity: 1}
 }
 
+/*end slideshow container*/
 
+/*links*/
 .dresses {list-style: none;
   display:flex;
   flex-wrap: wrap;
@@ -133,7 +136,7 @@ font-size:50px;
 
 
 
-/*--- column--- */
+/*--- column & row --- */
 .column{
   border: 10px  solid  #d9e4ea;
   padding: 1em 1em;
@@ -142,9 +145,6 @@ font-size:50px;
     display: flex;
 
 }
-
-
-
 
 .row {
     display: flex;
@@ -168,10 +168,10 @@ font-size: 20px;
 }
 
 
-.sign_login_links text-center{float: right;
+/*.sign_login_links text-center{float: right;
 font-size: 20px;
 color: black;
-text-align:right;}
+text-align:right;}*/
 
 a:hover,a:active{text-decoration: underline;
     background-color: #d9e4ea;
@@ -185,6 +185,7 @@ a:hover,a:active{text-decoration: underline;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
+  display: block;
 }
 
 
@@ -198,24 +199,7 @@ color: white;
     }
 
 
-/*----footer----*/
-.main-footer{text-align: center;
-background:#d9e4ea;
-border: 2px ;
-padding: 4px 4px;
-margin: 10px 1px 10px 1px;
 
-}
-
-
-/*--social_links--*/
-
-.icons{text-align: left;
-margin: 4px;
-padding: 4px;
-display: inline;
-}
-.icons li{display: inline-block;}
 
 
 /* Dropdown button */
@@ -296,11 +280,39 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+label{color: black;}
+
 .contact-container {width :50%;
     border-radius: 5px;
     background-color: #d9e4ea;
     padding: 20px;
 }
+
+/*----footer----*/
+.main-footer{text-align: center;
+background:#d9e4ea;
+border: 2px ;
+padding: 4px 4px;
+margin: 10px 1px 10px 1px;
+
+}
+
+
+/*--social_links--*/
+
+.icons{text-align: left;
+margin: 4px;
+padding: 4px;
+display: inline;
+}
+.icons li{display: inline-block;}
+
+
+
+
+
+
+
 
 
 /* Responsive layout */
@@ -321,7 +333,7 @@ input[type=submit]:hover {
 
 
 
-/*login */
+/*login*/
 
 
 .button  {float: right;
@@ -350,4 +362,3 @@ input[type=submit]:hover {
     position: absolute;
     right: 0;
 }
-/*exit*/
