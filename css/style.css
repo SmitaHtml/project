@@ -178,14 +178,14 @@ a:hover,a:active{text-decoration: underline;
 }
 /* Links inside the navbar */
 .nav-bar a {
+float: left;
 
-  float: left;
   font-size: 20px;
   color: black;
   text-align: left;
   padding: 14px 16px;
   text-decoration: none;
-  display: block;
+display: block;
 }
 
 
@@ -219,6 +219,7 @@ text-decoration: none;
   border: none;
   outline: none;
   font-family: Arial;
+  display: block;
 }
 
 /* Add background color to navbar links on hover */
@@ -237,7 +238,7 @@ text-decoration: none;
 }
 
 /* Links inside the dropdown */
-.dropdown-menu a {
+.dropdown-menu a{
   float: inherit;
   color: black;
   padding: 14px 16px;
@@ -316,17 +317,14 @@ display: inline;
 
 
 /* Responsive layout */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+@media screen and (max-width: 600px) {.column ,body, .nav-bar, .nav-bar a, .dropbtn,.dropdown
+
+   {
     width: 100%;
   }
-}
-/* Responsive layout */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
+
+  }
+
 
 
 
