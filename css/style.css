@@ -310,7 +310,7 @@ input[type=submit]:hover {
 
 /* Responsive layout */
 @media screen and (max-width: 600px) {
-  .column ,body, .nav-bar, .nav-bar a, .dropbtn,.dropdown
+  .column ,body, .nav-bar, .nav-bar a, .dropbtn,.dropdown,.container,img
 {
     width: 100%;
 }
