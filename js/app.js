@@ -1,33 +1,25 @@
-//login
-$(document).ready(function() {
-    $(".button").click(function(e) {
-        $("body").append(''); $(".popup").show();
-        $(".close").click(function(e){
-            $(".popup, .overlay").hide();
-        });
-    });
-});
-
-
 
 //login
 
+var modal = document.getElementById('id01' );
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 
+//signup
+var modal = document.getElementById('id02');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 
 //slider

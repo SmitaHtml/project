@@ -1,74 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <title>SMITA</title>
-        <link rel="stylesheet" href="./css/normalize.css"/>
-        <link rel="stylesheet" href="./css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>SMITA</title>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <script> src="./js/jquery-3.3.1.js"</script>
+    <!-- jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-        <script src="./js/app.js"></script>
+    <!-- Popper JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <script src="./js/app.js"></script>
+
   </head>
 
   <body>
+    <header class="main-header">
+      <h1 class="name">SMITA</h1>
+      <!-- navigation -->
+      <div class="nav-bar">
+        <a href="./index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Women</button>
+            <div class="dropdown-menu">
+              <a href="./Dresses.html">Dresses</a>
+              <a href="./Gown.html">Gowns</a>
+              <a href="./Lehenga.html">Lehengas</a>
+              <a href="./Sarees.html">Sarees</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">Men</button>
+              <div class="dropdown-menu">
+                <a href="./Jacket.html">Jacket</a>
+                <a href="./Kurta.html">Kurtas</a>
+                <a href="./Sherwani.html">Sherwanis</a>
+                <a href="./Shirt.html">Shirts</a>
+              </div>
+          </div>
+          <a href="./aboutus.html">About Us</a>
+          <a href="./form.html" >Contact</a>
+        </div>
+      <header/>
 
+      <body>
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <h3>Contact Form</h3>
 
-          <header class="main-header">
-            <h1 class="name">SMITA</h1>
-            <!-- navigation -->
-            <div class="nav-bar">
-              <a href="./index.html">Home</a>
-              <div class="dropdown">
-                <button class="dropbtn">Women</button>
-                <div class="dropdown-menu">
-                  <a href="./Dresses.html">Dresses</a>
-                  <a href="./Gown.html">Gowns</a>
-                  <a href="./Lehenga.html">Lehengas</a>
-                  <a href="./Sarees.html">Sarees</a>
+              <div class="contact-container">
+
+                <form action="./index.html">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <br>
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <br>
+                </select>
+
+                <label for="subject">Subject</label>
+                <br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <div>
+                  <input type="submit" value="Submit">
                 </div>
-              </div>
-              <div class="dropdown">
-                <button class="dropbtn">Men</button>
-                <div class="dropdown-menu">
-                  <a href="./Jacket.html">Jacket</a>
-                  <a href="./Kurta.html">Kurtas</a>
-                  <a href="./Sherwani.html">Sherwanis</a>
-                  <a href="./Shirt.html">Shirts</a>
-                </div>
-              </div>
-              <a href="./aboutus.html">About Us</a>
-              <a href="./form.html" >Contact</a>
-
-
-
-              </div>
-    <header/>
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="column">
-<h3>Contact Form</h3>
-
-<div class="contact-container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <br>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-<br>
-
-    </select>
-
-    <label for="subject">Subject</label>
-    <br>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
-</div>
-</div>
-</div>
-</div>
-</body>
-</html>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    </html>
