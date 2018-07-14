@@ -1,2 +1,3 @@
-This is my class project for Code Louisville FEWD.
-to view open index.html
+These files are for class FEWD project.
+To view the project please click on index.html.
+The project uses HTML, CSS, Javascript and JQuery.
