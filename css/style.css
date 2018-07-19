@@ -298,15 +298,15 @@ input[type=submit]:hover {
 /*--social_links--*/
 
 .icons{
-  text-align: left;
-  margin: 4px;
+    text-align: left;
+    margin: 4px;
     padding: 4px;
     display: inline;
 }
 .icons li{
   display: inline-block;
 }
-
+span{color: black;}
 
 /* Responsive layout */
 @media screen and (max-width: 600px) {
