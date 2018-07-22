@@ -161,14 +161,11 @@ p{
   overflow: hidden;
   font-size: 20px;
   font-family: Arial;
-  text-align: left;
+  text-align: center;
 }
 
 
-/*.sign_login_links text-center{float: right;
-font-size: 20px;
-color: black;
-text-align:right;}*/
+
 
 a:hover,a:active{
   text-decoration: underline;
@@ -179,7 +176,7 @@ a:hover,a:active{
   float: left;
   font-size: 20px;
   color: black;
-  text-align: left;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   display: inline-block;
@@ -188,7 +185,7 @@ a:hover,a:active{
 
 /*---Layout Container----*/
 .container {
-color: white;
+    color: white;
     border: 1px solid #d9e4ea;
     padding: 1em 1em;
     margin: 5px 1px 5px 1px;
@@ -204,12 +201,12 @@ color: white;
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   text-decoration: none;
   color: black;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: white;
   border: none;
   outline: none;
   font-family: Arial;
